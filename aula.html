@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Tag h</title>
+</head>
+<body>
+
+<h1>Formulário</h1>
+    <form> 
+        <label for="nome">NOME</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" required autofocus>
+    <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Digite Seu melhor email" required>
+    <br>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" placeholder="Digite Sua Senha" required>
+        <br><br>
+
+        <label for="informacoes">Informações</label>
+        <textarea name="informacoes" cols="30" rows="10"></textarea>
+    <br>
+        <label for="sexo">SEXO</label>
+        <input type="radio" name="sexo" value="masculino" required>
+        <label for="masculino">masculino</label>
+        <input type="radio" name="sexo" value="feminino" required>
+        <label>feminino</label>
+    <br>
+        <input type="checkbox" name="termos1">
+        <label for="termos1">aceito receber emails</label>
+    <br>
+        <input type="checkbox" name="termos2">
+        <label for="termos2">Aceito receber ligações</label>
+    <br>
+        <input type="checkbox" name="termos3" required>
+        <label for="termos3">Aceito os Termos</label>
+    <br><br>
+        <label for="scroll">Quão satisfeito você está hoje?</label>
+        <input type="range" name="scroll">
+    <br>
+        <label for="data">DATA DE NASCIMENTO</label>
+        <input type="date" name="data" >
+
+    <br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
